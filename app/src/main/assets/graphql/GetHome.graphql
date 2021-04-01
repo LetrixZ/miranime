@@ -1,0 +1,27 @@
+query GetHome($site: String) {
+    home(site: $site) {
+        title
+        list {
+            id
+            idMal
+            idAl
+            title
+            synopsis
+            type
+            poster
+            banner
+            thumbnail
+            year
+            season
+            episodes
+            latestEpisode
+            synonyms
+            genres
+            state
+            sites {
+                id
+                name
+            }
+        }
+    }
+}

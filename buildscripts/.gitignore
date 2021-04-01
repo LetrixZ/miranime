@@ -1,0 +1,7 @@
+deps
+sdk
+prefix
+prefix64
+*.tgz
+/include/
+/scripts

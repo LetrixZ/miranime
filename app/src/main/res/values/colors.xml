@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_500">#4CAF50</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="dark_200">#bababa</color>
+    <color name="dark_400">#333333</color>
+    <color name="dark_500">#181818</color>
+    <color name="dark_600">#121212</color>
+    <color name="dark_700">#0e0e0e</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_700">#616161</color>
+    <color name="red_200">#ef9a9a</color>
+    <color name="red_300">#e57373</color>
+    <color name="red_500">#f44336</color>
+    <color name="red_700">#d32f2f</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_light">#fafafa</color>
+    <color name="white_lighter">#D9D9D9</color>
+
+    <color name="tint_btn_bg_nofocus">#00000000</color>
+    <color name="tint_btn_bg_focused">#807F7FB2</color>
+    <color name="tint_normal">#ffffff</color>
+    <color name="tint_disabled">#3c3c3c</color>
+    <color name="tint_seekbar_bg">#8A8A8A</color>
+    <color name="yellow_500">#FFFFC107</color>
+</resources>

@@ -1,0 +1,22 @@
+query Search($query: String!) {
+    search(query: $query) {
+        id
+        idMal
+        idAl
+        title
+        synopsis
+        type
+        poster
+        banner
+        year
+        season
+        episodes
+        synonyms
+        genres
+        state
+        sites {
+            id
+            name
+        }
+    }
+}

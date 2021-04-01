@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RoundHalfCorner">
+        <item name="cornerSizeTopRight">3dp</item>
+        <item name="cornerSizeTopLeft">3dp</item>
+    </style>
+
+    <style name="RoundCorner">
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:tint">?colorOnSurface</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="TextMenu">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="PosterStyle">
+        <item name="shapeAppearanceOverlay">@style/RoundCorner</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="layout_constraintDimensionRatio">H,75:106</item>
+        <item name="android:elevation">3dp</item>
+    </style>
+</resources>
